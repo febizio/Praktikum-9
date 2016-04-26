@@ -1,0 +1,20 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int hasil,angka;
+
+    hasil=1;
+
+    cout<<"Masukkan Angka : ";
+    cin>>angka;
+
+   while (angka>=1)
+   {
+       hasil=hasil*angka;
+       angka--;
+   }
+   cout<<"Hasilnya : "<<hasil;
+}
